@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pinboard()
+comment0.text=\n\ Create\ a\ Pinboard\ show\ it\ on\ screen.\n
+comment1.params=
+comment1.target=void\ clear()
+comment1.text=\n\ Clear\ the\ pinboard.\n
+comment2.params=item
+comment2.target=boolean\ removeItem(java.lang.String)
+comment2.text=\n\ Remove\ a\ displayed\ item.\n\ @param\ item\ A\ filename\ or\ message.\n\ @return\ true\ if\ the\ item\ was\ displayed,\ false\ otherwise.\n
+comment3.params=filename
+comment3.target=void\ pinPicture(java.lang.String)
+comment3.text=\n\ Pin\ the\ picture\ in\ the\ given\ file\ to\ the\ pinboard.\n\ An\ error\ dialog\ is\ displayed\ if\ the\ image\ cannot\ be\ read.\n\ @param\ filename\ The\ picture\ file.\n
+comment4.params=note
+comment4.target=void\ pinNote(java.lang.String)
+comment4.text=\n\ Display\ a\ note\ on\ the\ pinboard.\n\ @param\ note\ The\ note\ to\ be\ displayed.\n
+comment5.params=frame
+comment5.target=void\ pin(javax.swing.JInternalFrame)
+comment5.text=\n\ Add\ something\ to\ the\ pinboard.\n\ @param\ frame\ The\ frame\ containing\ the\ item\ to\ be\ pinned.\n
+comment6.params=
+comment6.target=void\ makeContents()
+comment6.text=\n\ Create\ the\ frame's\ contents.\n
+numComments=7
